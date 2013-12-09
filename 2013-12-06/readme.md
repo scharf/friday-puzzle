@@ -3,7 +3,7 @@ forwards, backwards and upside down?
 
 http://richardwiseman.wordpress.com/2013/12/06/its-the-friday-puzzle-236/
 
-My [first solution](solution1.py) scans all words in an online [english dictionary](http://www-personal.umich.edu/~jlawler/wordlist.html)
+My [first solution](solution1.py) scans all words in an online [english word list](http://www-personal.umich.edu/~jlawler/wordlist.html)
 and the result is:
 
 	$ python solution1.py 
