@@ -1,8 +1,11 @@
 import random
 
 
+# totoal number of exxperiments
 tot      = 0
+# experiments that we accept (because we see Head)
 accepted = 0
+# the number of thimes the other coin was Head
 head     = 0
 
 # this is our coin
@@ -43,6 +46,8 @@ for i in range(10000):
         # and count th number of heads
         if other_coin.face == 'H':
             head += 1
+
+# finally we calculate the probability
 probability_percent = (100.*head/accepted)
 
 print "the experiment was done %(tot)d times but we accepted only %(accepted)d cases where the coin was H" % globals()
